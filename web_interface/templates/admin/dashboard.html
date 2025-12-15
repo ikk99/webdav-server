@@ -1,0 +1,304 @@
+{% extends "admin/base.html" %}
+
+{% block title %}仪表板 - WebDAV 管理后台{% endblock %}
+{% block page_title %}仪表板{% endblock %}
+
+{% block page_actions %}
+<div class="btn-group">
+    <button type="button" class="btn btn-gradient" data-bs-toggle="modal" data-bs-target="#createUserModal">
+        <i class="bi bi-person-plus"></i> 创建用户
+    </button>
+    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#createFolderModal">
+        <i class="bi bi-folder-plus"></i> 创建文件夹
+    </button>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <!-- 统计卡片 -->
+    <div class="col-md-3 mb-4">
+        <div class="card stat-card">
+            <div class="stat-icon text-primary">
+                <i class="bi bi-people"></i>
+            </div>
+            <div class="stat-number" id="userCount">0</div>
+            <div class="stat-label">总用户数</div>
+        </div>
+    </div>
+    
+    <div class="col-md-3 mb-4">
+        <div class="card stat-card">
+            <div class="stat-icon text-success">
+                <i class="bi bi-person-check"></i>
+            </div>
+            <div class="stat-number" id="activeUserCount">0</div>
+            <div class="stat-label">活跃用户</div>
+        </div>
+    </div>
+    
+    <div class="col-md-3 mb-4">
+        <div class="card stat-card">
+            <div class="stat-icon text-info">
+                <i class="bi bi-folder"></i>
+            </div>
+            <div class="stat-number" id="folderCount">0</div>
+            <div class="stat-label">文件夹数</div>
+        </div>
+    </div>
+    
+    <div class="col-md-3 mb-4">
+        <div class="card stat-card">
+            <div class="stat-icon text-warning">
+                <i class="bi bi-file-earmark"></i>
+            </div>
+            <div class="stat-number" id="fileCount">0</div>
+            <div class="stat-label">文件数</div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <!-- 存储使用情况 -->
+    <div class="col-md-8 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <i class="bi bi-hdd"></i> 存储使用情况
+            </div>
+            <div class="card-body">
+                <div class="d-flex justify-content-between mb-3">
+                    <span>已使用: <span id="storageUsed">0</span> GB</span>
+                    <span>总共: <span id="storageTotal">0</span> GB</span>
+                </div>
+                <div class="progress" style="height: 20px;">
+                    <div id="storageProgress" class="progress-bar" role="progressbar" style="width: 0%;"></div>
+                </div>
+                <div class="text-center mt-2">
+                    <span id="storagePercent">0%</span> 已使用
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 系统负载 -->
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <i class="bi bi-speedometer"></i> 系统负载
+            </div>
+            <div class="card-body text-center">
+                <div class="display-4 mb-2" id="systemLoad">0.00</div>
+                <div class="text-muted">1分钟平均负载</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <!-- 最近活动 -->
+    <div class="col-12 mb-4">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <span><i class="bi bi-clock-history"></i> 最近活动</span>
+                <a href="{{ url_for('admin.view_logs') }}" class="btn btn-sm btn-outline-primary">查看所有</a>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>时间</th>
+                                <th>用户</th>
+                                <th>操作</th>
+                                <th>路径</th>
+                                <th>IP地址</th>
+                            </tr>
+                        </thead>
+                        <tbody id="recentActivities">
+                            <!-- 通过JavaScript动态加载 -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 创建用户模态框 -->
+<div class="modal fade" id="createUserModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">创建用户</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <form action="{{ url_for('admin.create_user') }}" method="POST">
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="username" class="form-label">用户名 *</label>
+                        <input type="text" class="form-control" id="username" name="username" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">密码 *</label>
+                        <input type="password" class="form-control" id="password" name="password" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="confirm_password" class="form-label">确认密码 *</label>
+                        <input type="password" class="form-control" id="confirm_password" name="confirm_password" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="display_name" class="form-label">显示名称</label>
+                        <input type="text" class="form-control" id="display_name" name="display_name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">邮箱</label>
+                        <input type="email" class="form-control" id="email" name="email">
+                    </div>
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" id="is_admin" name="is_admin">
+                        <label class="form-check-label" for="is_admin">
+                            设为管理员
+                        </label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">取消</button>
+                    <button type="submit" class="btn btn-gradient">创建用户</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- 创建文件夹模态框 -->
+<div class="modal fade" id="createFolderModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">创建文件夹</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label for="folderPath" class="form-label">文件夹路径 *</label>
+                    <input type="text" class="form-control" id="folderPath" 
+                           placeholder="例如: /documents, /images/photos" required>
+                    <div class="form-text">请以斜杠开头，例如: /folder_name</div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-gradient" onclick="createFolder()">创建文件夹</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+// 更新系统统计
+function updateStats() {
+    $.ajax({
+        url: "{{ url_for('admin.get_system_stats') }}",
+        method: 'GET',
+        success: function(response) {
+            if (response.success) {
+                const stats = response.stats;
+                $('#userCount').text(stats.total_users);
+                $('#activeUserCount').text(stats.active_users);
+                $('#folderCount').text(stats.total_folders);
+                $('#fileCount').text(stats.total_files);
+                
+                // 存储使用情况
+                const usedGB = (stats.storage_usage.used / 1024 / 1024 / 1024).toFixed(2);
+                const totalGB = (stats.storage_usage.total / 1024 / 1024 / 1024).toFixed(2);
+                const percent = stats.storage_usage.percent.toFixed(1);
+                
+                $('#storageUsed').text(usedGB);
+                $('#storageTotal').text(totalGB);
+                $('#storagePercent').text(percent + '%');
+                $('#storageProgress').css('width', percent + '%');
+                
+                // 系统负载
+                $('#systemLoad').text(stats.system_load.toFixed(2));
+                
+                // 获取最近活动
+                updateRecentActivities();
+            }
+        },
+        error: function() {
+            console.error('获取统计信息失败');
+        }
+    });
+}
+
+// 更新最近活动
+function updateRecentActivities() {
+    $.ajax({
+        url: "{{ url_for('admin.view_logs') }}?json=1",
+        method: 'GET',
+        success: function(data) {
+            const tbody = $('#recentActivities');
+            tbody.empty();
+            
+            // 这里简化处理，实际应该从API获取
+            $.getJSON("{{ url_for('admin.view_logs') }}?json=1", function(logs) {
+                logs.slice(0, 5).forEach(function(log) {
+                    const row = `
+                        <tr>
+                            <td>${new Date(log.timestamp).toLocaleString()}</td>
+                            <td>${log.display_name || log.username || '匿名'}</td>
+                            <td><span class="badge bg-info">${log.action}</span></td>
+                            <td><small class="text-muted">${log.path || '-'}</small></td>
+                            <td><code>${log.client_ip || '-'}</code></td>
+                        </tr>
+                    `;
+                    tbody.append(row);
+                });
+            });
+        }
+    });
+}
+
+// 创建文件夹
+function createFolder() {
+    const folderPath = $('#folderPath').val().trim();
+    if (!folderPath) {
+        alert('请输入文件夹路径');
+        return;
+    }
+    
+    if (!folderPath.startsWith('/')) {
+        alert('文件夹路径必须以斜杠开头');
+        return;
+    }
+    
+    $.ajax({
+        url: "{{ url_for('admin.create_folder') }}",
+        method: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify({ folder_path: folderPath }),
+        success: function(response) {
+            if (response.success) {
+                alert('文件夹创建成功');
+                $('#createFolderModal').modal('hide');
+                $('#folderPath').val('');
+                updateStats();
+            } else {
+                alert('创建失败: ' + response.message);
+            }
+        },
+        error: function() {
+            alert('创建文件夹失败');
+        }
+    });
+}
+
+// 页面加载完成时初始化
+$(document).ready(function() {
+    updateStats();
+    setInterval(updateStats, 30000); // 每30秒更新一次
+});
+</script>
+{% endblock %}

@@ -1,0 +1,1277 @@
+2025-12-13 00:20:46,903 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-13 00:20:46,903 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-13 00:20:46,903 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-13 00:20:46,903 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-13 00:26:55,240 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-13 00:26:55,241 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-13 00:26:55,241 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-13 00:26:55,241 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-13 00:29:35,280 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-13 00:29:35,280 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-13 00:29:35,280 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-13 00:29:35,280 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-13 00:29:35,280 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-13 00:29:35,301 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-13 00:29:35,301 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-13 00:29:44,741 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 00:29:44] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-13 00:29:44,757 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 00:29:44] "GET /login HTTP/1.1" 200 -
+2025-12-13 00:29:51,654 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 00:29:51] "POST /login HTTP/1.1" 200 -
+2025-12-13 00:29:56,777 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 00:29:56] "POST /login HTTP/1.1" 200 -
+2025-12-13 00:30:01,227 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 00:30:01] "[32mGET /admin/ HTTP/1.1[0m" 302 -
+2025-12-13 00:30:01,235 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 00:30:01] "GET /admin/login HTTP/1.1" 200 -
+2025-12-13 00:30:06,427 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 00:30:06] "POST /login HTTP/1.1" 200 -
+2025-12-13 00:30:16,454 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 00:30:16] "GET /admin/login HTTP/1.1" 200 -
+2025-12-13 00:30:21,852 - werkzeug - INFO - 127.0.0.1 - - [13/Dec/2025 00:30:21] "POST /login HTTP/1.1" 200 -
+2025-12-13 00:34:06,815 - __main__ - INFO - 收到中断信号，正在关闭 WebDAV 服务器...
+2025-12-15 09:18:58,307 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 09:18:58,307 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 09:18:58,307 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 09:18:58,307 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 09:18:58,308 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 09:18:58,329 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 09:18:58,329 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 09:19:18,030 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 09:19:18] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-15 09:19:18,044 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 09:19:18] "GET /login HTTP/1.1" 200 -
+2025-12-15 09:19:23,096 - models - WARNING - Authentication failed for user: admin
+2025-12-15 09:19:23,097 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 09:19:23] "POST /login HTTP/1.1" 200 -
+2025-12-15 09:21:56,117 - __main__ - INFO - 收到中断信号，正在关闭 WebDAV 服务器...
+2025-12-15 09:22:46,282 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 09:22:46,283 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 09:22:46,283 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 09:22:46,283 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 09:22:46,283 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 09:22:46,309 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 09:22:46,309 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 09:22:52,435 - models - INFO - User authenticated successfully: admin
+2025-12-15 09:22:52,438 - auth - INFO - Session created for user 2
+2025-12-15 09:22:52,440 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 09:22:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-15 09:22:52,467 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 09:22:52] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 09:22:53,409 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 09:22:53] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 09:23:04,429 - web_interface.admin - ERROR - 获取用户列表失败: users.html
+2025-12-15 09:23:04,430 - web_interface - ERROR - Exception on /admin/users [GET]
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 121, in user_management
+    return render_template('users.html', user=user, users=users)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: users.html
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 46, in decorated_function
+    return f(user, *args, **kwargs)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 126, in user_management
+    return render_template('users.html', user=user, users=[])
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: users.html
+2025-12-15 09:23:04,439 - root - ERROR - 服务器内部错误: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-15 09:23:04,440 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 09:23:04] "[35m[1mGET /admin/users HTTP/1.1[0m" 500 -
+2025-12-15 09:23:23,371 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 09:23:23] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 09:23:53,373 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 09:23:53] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 09:24:23,378 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 09:24:23] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 09:24:25,973 - web_interface.admin - ERROR - 获取用户列表失败: users.html
+2025-12-15 09:24:25,974 - web_interface - ERROR - Exception on /admin/users [GET]
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 121, in user_management
+    return render_template('users.html', user=user, users=users)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: users.html
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 46, in decorated_function
+    return f(user, *args, **kwargs)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 126, in user_management
+    return render_template('users.html', user=user, users=[])
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: users.html
+2025-12-15 09:24:25,974 - root - ERROR - 服务器内部错误: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-15 09:24:25,975 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 09:24:25] "[35m[1mGET /admin/users HTTP/1.1[0m" 500 -
+2025-12-15 09:40:37,337 - __main__ - INFO - 收到中断信号，正在关闭 WebDAV 服务器...
+2025-12-15 10:12:46,149 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 10:12:46,149 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 10:12:46,149 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 10:12:46,150 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 10:12:46,150 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 10:12:46,167 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 10:12:46,168 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 10:12:54,494 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:12:54] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-15 10:12:54,506 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:12:54] "GET /login HTTP/1.1" 200 -
+2025-12-15 10:13:00,828 - models - INFO - User authenticated successfully: admin
+2025-12-15 10:13:00,832 - auth - INFO - Session created for user 2
+2025-12-15 10:13:00,832 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:13:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-15 10:13:00,866 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:13:00] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 10:13:01,000 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:13:01] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:13:09,279 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:13:09] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 10:14:32,728 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:14:32] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 10:14:34,825 - web_interface.admin - ERROR - 获取系统状态失败: No module named 'psutil'
+2025-12-15 10:14:34,825 - web_interface - ERROR - Exception on /admin/system [GET]
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 376, in system_status
+    system_info = get_system_info()
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 501, in get_system_info
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 46, in decorated_function
+    return f(user, *args, **kwargs)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 393, in system_status
+    return render_template('system_status.html',
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: system_status.html
+2025-12-15 10:14:34,832 - root - ERROR - 服务器内部错误: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-15 10:14:34,832 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:14:34] "[35m[1mGET /admin/system HTTP/1.1[0m" 500 -
+2025-12-15 10:14:37,372 - web_interface.admin - ERROR - 获取日志失败: logs.html
+2025-12-15 10:14:37,373 - web_interface - ERROR - Exception on /admin/logs [GET]
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 420, in view_logs
+    return render_template('logs.html', user=user, logs=logs)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: logs.html
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 46, in decorated_function
+    return f(user, *args, **kwargs)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 425, in view_logs
+    return render_template('logs.html', user=user, logs=[])
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: logs.html
+2025-12-15 10:14:37,373 - root - ERROR - 服务器内部错误: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-15 10:14:37,374 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:14:37] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2025-12-15 10:14:39,682 - web_interface - ERROR - Exception on /admin/folders [GET]
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 46, in decorated_function
+    return f(user, *args, **kwargs)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 347, in folder_management
+    return render_template('folders.html', user=user, folders=folders)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: folders.html
+2025-12-15 10:14:39,683 - root - ERROR - 服务器内部错误: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-15 10:14:39,683 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:14:39] "[35m[1mGET /admin/folders HTTP/1.1[0m" 500 -
+2025-12-15 10:15:02,855 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:15:02] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:15:32,857 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:15:32] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:16:02,869 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:16:02] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:16:32,857 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:16:32] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:17:02,871 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:17:02] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:17:32,857 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:17:32] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:18:02,858 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:18:02] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:18:32,858 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:18:32] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:19:02,879 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:19:02] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:19:32,862 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:19:32] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:20:02,874 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:20:02] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:20:26,945 - __main__ - INFO - 收到中断信号，正在关闭 WebDAV 服务器...
+2025-12-15 10:20:28,719 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 10:20:28,719 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 10:20:28,719 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 10:20:28,719 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 10:20:28,720 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 10:20:28,749 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 10:20:28,750 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 10:20:31,702 - web_interface - ERROR - Exception on /admin/ [GET]
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 46, in decorated_function
+    return f(user, *args, **kwargs)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 99, in dashboard
+    return render_template('dashboard.html', user=user)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/kay/webdav_server/web_interface/templates/admin/dashboard.html", line 1, in top-level template code
+    {% extends "admin/base.html" %}
+  File "/Users/kay/webdav_server/web_interface/templates/admin/base.html", line 1, in top-level template code
+    {% extends "admin/base.html" %}
+  File "/Users/kay/webdav_server/web_interface/templates/admin/base.html", line 1, in top-level template code
+    {% extends "admin/base.html" %}
+  File "/Users/kay/webdav_server/web_interface/templates/admin/base.html", line 1, in top-level template code
+    {% extends "admin/base.html" %}
+  [Previous line repeated 968 more times]
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/utils.py", line 477, in get
+    return self[key]
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/utils.py", line 515, in __getitem__
+    rv = self._mapping[key]
+RecursionError: maximum recursion depth exceeded in comparison
+2025-12-15 10:20:31,714 - root - ERROR - 服务器内部错误: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-15 10:20:31,715 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:20:31] "[35m[1mGET /admin/ HTTP/1.1[0m" 500 -
+2025-12-15 10:20:32,794 - web_interface - ERROR - Exception on /admin/ [GET]
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 46, in decorated_function
+    return f(user, *args, **kwargs)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 99, in dashboard
+    return render_template('dashboard.html', user=user)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/kay/webdav_server/web_interface/templates/admin/dashboard.html", line 1, in top-level template code
+    {% extends "admin/base.html" %}
+  File "/Users/kay/webdav_server/web_interface/templates/admin/base.html", line 1, in top-level template code
+    {% extends "admin/base.html" %}
+  File "/Users/kay/webdav_server/web_interface/templates/admin/base.html", line 1, in top-level template code
+    {% extends "admin/base.html" %}
+  File "/Users/kay/webdav_server/web_interface/templates/admin/base.html", line 1, in top-level template code
+    {% extends "admin/base.html" %}
+  [Previous line repeated 968 more times]
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/utils.py", line 477, in get
+    return self[key]
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/utils.py", line 515, in __getitem__
+    rv = self._mapping[key]
+RecursionError: maximum recursion depth exceeded in comparison
+2025-12-15 10:20:32,798 - root - ERROR - 服务器内部错误: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-15 10:20:32,799 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:20:32] "[35m[1mGET /admin/ HTTP/1.1[0m" 500 -
+2025-12-15 10:20:36,387 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:20:36] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-15 10:20:36,400 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:20:36] "GET /login HTTP/1.1" 200 -
+2025-12-15 10:20:41,015 - models - WARNING - Authentication failed for user: admin
+2025-12-15 10:20:41,017 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:20:41] "POST /login HTTP/1.1" 200 -
+2025-12-15 10:20:45,477 - models - INFO - User authenticated successfully: admin
+2025-12-15 10:20:45,480 - auth - INFO - Session created for user 2
+2025-12-15 10:20:45,481 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:20:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-15 10:20:45,531 - web_interface - ERROR - Exception on /admin/ [GET]
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 46, in decorated_function
+    return f(user, *args, **kwargs)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 99, in dashboard
+    return render_template('dashboard.html', user=user)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/kay/webdav_server/web_interface/templates/admin/dashboard.html", line 1, in top-level template code
+    {% extends "admin/base.html" %}
+  File "/Users/kay/webdav_server/web_interface/templates/admin/base.html", line 1, in top-level template code
+    {% extends "admin/base.html" %}
+  File "/Users/kay/webdav_server/web_interface/templates/admin/base.html", line 1, in top-level template code
+    {% extends "admin/base.html" %}
+  File "/Users/kay/webdav_server/web_interface/templates/admin/base.html", line 1, in top-level template code
+    {% extends "admin/base.html" %}
+  [Previous line repeated 968 more times]
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/utils.py", line 477, in get
+    return self[key]
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/utils.py", line 515, in __getitem__
+    rv = self._mapping[key]
+RecursionError: maximum recursion depth exceeded in comparison
+2025-12-15 10:20:45,534 - root - ERROR - 服务器内部错误: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-15 10:20:45,534 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:20:45] "[35m[1mGET /admin/ HTTP/1.1[0m" 500 -
+2025-12-15 10:22:57,054 - web_interface - ERROR - Exception on /admin/ [GET]
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 46, in decorated_function
+    return f(user, *args, **kwargs)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 99, in dashboard
+    return render_template('dashboard.html', user=user)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/kay/webdav_server/web_interface/templates/admin/dashboard.html", line 1, in top-level template code
+    {% extends "admin/base.html" %}
+  File "/Users/kay/webdav_server/web_interface/templates/admin/base.html", line 1, in top-level template code
+    <!DOCTYPE html>
+  File "/Users/kay/webdav_server/web_interface/templates/admin/base.html", line 1, in top-level template code
+    <!DOCTYPE html>
+  File "/Users/kay/webdav_server/web_interface/templates/admin/base.html", line 1, in top-level template code
+    <!DOCTYPE html>
+  [Previous line repeated 968 more times]
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/utils.py", line 477, in get
+    return self[key]
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/utils.py", line 515, in __getitem__
+    rv = self._mapping[key]
+RecursionError: maximum recursion depth exceeded in comparison
+2025-12-15 10:22:57,060 - root - ERROR - 服务器内部错误: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-15 10:22:57,060 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:22:57] "[35m[1mGET /admin/ HTTP/1.1[0m" 500 -
+2025-12-15 10:22:57,943 - web_interface - ERROR - Exception on /admin/ [GET]
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 46, in decorated_function
+    return f(user, *args, **kwargs)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 99, in dashboard
+    return render_template('dashboard.html', user=user)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/kay/webdav_server/web_interface/templates/admin/dashboard.html", line 1, in top-level template code
+    {% extends "admin/base.html" %}
+  File "/Users/kay/webdav_server/web_interface/templates/admin/base.html", line 1, in top-level template code
+    <!DOCTYPE html>
+  File "/Users/kay/webdav_server/web_interface/templates/admin/base.html", line 1, in top-level template code
+    <!DOCTYPE html>
+  File "/Users/kay/webdav_server/web_interface/templates/admin/base.html", line 1, in top-level template code
+    <!DOCTYPE html>
+  [Previous line repeated 968 more times]
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/utils.py", line 477, in get
+    return self[key]
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/utils.py", line 515, in __getitem__
+    rv = self._mapping[key]
+RecursionError: maximum recursion depth exceeded in comparison
+2025-12-15 10:22:57,946 - root - ERROR - 服务器内部错误: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-15 10:22:57,946 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:22:57] "[35m[1mGET /admin/ HTTP/1.1[0m" 500 -
+2025-12-15 10:23:02,265 - models - WARNING - Authentication failed for user: admin
+2025-12-15 10:23:02,267 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:23:02] "POST /login HTTP/1.1" 200 -
+2025-12-15 10:23:07,949 - models - INFO - User authenticated successfully: admin
+2025-12-15 10:23:07,952 - auth - INFO - Session created for user 2
+2025-12-15 10:23:07,953 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:23:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-15 10:23:07,968 - models - INFO - User authenticated successfully: admin
+2025-12-15 10:23:07,971 - auth - INFO - Session created for user 2
+2025-12-15 10:23:07,972 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:23:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-15 10:23:08,023 - web_interface - ERROR - Exception on /admin/ [GET]
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 46, in decorated_function
+    return f(user, *args, **kwargs)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 99, in dashboard
+    return render_template('dashboard.html', user=user)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/kay/webdav_server/web_interface/templates/admin/dashboard.html", line 1, in top-level template code
+    {% extends "admin/base.html" %}
+  File "/Users/kay/webdav_server/web_interface/templates/admin/base.html", line 1, in top-level template code
+    <!DOCTYPE html>
+  File "/Users/kay/webdav_server/web_interface/templates/admin/base.html", line 1, in top-level template code
+    <!DOCTYPE html>
+  File "/Users/kay/webdav_server/web_interface/templates/admin/base.html", line 1, in top-level template code
+    <!DOCTYPE html>
+  [Previous line repeated 968 more times]
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/utils.py", line 477, in get
+    return self[key]
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/utils.py", line 515, in __getitem__
+    rv = self._mapping[key]
+RecursionError: maximum recursion depth exceeded in comparison
+2025-12-15 10:23:08,026 - root - ERROR - 服务器内部错误: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-15 10:23:08,026 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:23:08] "[35m[1mGET /admin/ HTTP/1.1[0m" 500 -
+2025-12-15 10:23:12,183 - __main__ - INFO - 收到中断信号，正在关闭 WebDAV 服务器...
+2025-12-15 10:23:13,327 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 10:23:13,327 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 10:23:13,327 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 10:23:13,327 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 10:23:13,328 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 10:23:13,349 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 10:23:13,349 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 10:23:14,958 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:23:14] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 10:23:15,072 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:23:15] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:23:41,391 - web_interface - ERROR - Exception on /admin/folders [GET]
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 46, in decorated_function
+    return f(user, *args, **kwargs)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 347, in folder_management
+    return render_template('folders.html', user=user, folders=folders)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: folders.html
+2025-12-15 10:23:41,399 - root - ERROR - 服务器内部错误: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-15 10:23:41,399 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:23:41] "[35m[1mGET /admin/folders HTTP/1.1[0m" 500 -
+2025-12-15 10:23:45,056 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:23:45] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:24:15,062 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:24:15] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:24:45,057 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:24:45] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:24:56,691 - __main__ - INFO - 收到中断信号，正在关闭 WebDAV 服务器...
+2025-12-15 10:24:58,612 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 10:24:58,612 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 10:24:58,612 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 10:24:58,613 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 10:24:58,613 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 10:24:58,629 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 10:24:58,629 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 10:25:00,908 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:25:00] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 10:25:01,036 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:25:01] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:25:01,772 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:25:01] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 10:25:01,885 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:25:01] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:25:03,439 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:25:03] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 10:25:06,360 - web_interface - ERROR - Exception on /admin/folders [GET]
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 46, in decorated_function
+    return f(user, *args, **kwargs)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 347, in folder_management
+    return render_template('folders.html', user=user, folders=folders)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: folders.html
+2025-12-15 10:25:06,366 - root - ERROR - 服务器内部错误: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-15 10:25:06,367 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:25:06] "[35m[1mGET /admin/folders HTTP/1.1[0m" 500 -
+2025-12-15 10:25:07,514 - web_interface.admin - ERROR - 获取系统状态失败: No module named 'psutil'
+2025-12-15 10:25:07,514 - web_interface - ERROR - Exception on /admin/system [GET]
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 376, in system_status
+    system_info = get_system_info()
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 501, in get_system_info
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 46, in decorated_function
+    return f(user, *args, **kwargs)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 393, in system_status
+    return render_template('system_status.html',
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: system_status.html
+2025-12-15 10:25:07,515 - root - ERROR - 服务器内部错误: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-15 10:25:07,516 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:25:07] "[35m[1mGET /admin/system HTTP/1.1[0m" 500 -
+2025-12-15 10:25:08,602 - web_interface.admin - ERROR - 获取日志失败: logs.html
+2025-12-15 10:25:08,602 - web_interface - ERROR - Exception on /admin/logs [GET]
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 420, in view_logs
+    return render_template('logs.html', user=user, logs=logs)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: logs.html
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 46, in decorated_function
+    return f(user, *args, **kwargs)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 425, in view_logs
+    return render_template('logs.html', user=user, logs=[])
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: logs.html
+2025-12-15 10:25:08,603 - root - ERROR - 服务器内部错误: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-15 10:25:08,604 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:25:08] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2025-12-15 10:25:10,349 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:25:10] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 10:25:10,454 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:25:10] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:25:40,439 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:25:40] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:26:10,460 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:26:10] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:26:40,440 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:26:40] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:27:10,461 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:27:10] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:27:40,441 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:27:40] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:27:45,458 - __main__ - INFO - 收到中断信号，正在关闭 WebDAV 服务器...
+2025-12-15 10:27:50,659 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 10:27:50,659 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 10:27:50,660 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 10:27:50,660 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 10:27:50,660 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 10:27:50,681 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 10:27:50,681 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 10:27:53,147 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:27:53] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 10:27:53,262 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:27:53] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:27:54,173 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:27:54] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 10:27:58,167 - web_interface - ERROR - Exception on /admin/folders [GET]
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 46, in decorated_function
+    return f(user, *args, **kwargs)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 347, in folder_management
+    return render_template('folders.html', user=user, folders=folders)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: folders.html
+2025-12-15 10:27:58,175 - root - ERROR - 服务器内部错误: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-15 10:27:58,176 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:27:58] "[35m[1mGET /admin/folders HTTP/1.1[0m" 500 -
+2025-12-15 10:30:20,113 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:30:20] "GET /login HTTP/1.1" 200 -
+2025-12-15 10:30:21,129 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:30:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-15 10:30:26,929 - models - INFO - User authenticated successfully: admin
+2025-12-15 10:30:26,931 - auth - INFO - Session created for user 2
+2025-12-15 10:30:26,932 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:30:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-15 10:30:26,940 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:30:26] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 10:30:27,140 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:30:27] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:30:28,865 - web_interface - ERROR - Exception on /admin/folders [GET]
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 46, in decorated_function
+    return f(user, *args, **kwargs)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 347, in folder_management
+    return render_template('folders.html', user=user, folders=folders)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: folders.html
+2025-12-15 10:30:28,866 - root - ERROR - 服务器内部错误: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-15 10:30:28,867 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:30:28] "[35m[1mGET /admin/folders HTTP/1.1[0m" 500 -
+2025-12-15 10:53:36,583 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:53:36] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:54:06,577 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:54:06] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:54:36,593 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:54:36] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:55:06,578 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:55:06] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:55:30,438 - __main__ - INFO - 收到中断信号，正在关闭 WebDAV 服务器...
+2025-12-15 10:55:31,845 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 10:55:31,845 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 10:55:31,845 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 10:55:31,846 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 10:55:31,846 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 10:55:31,873 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 10:55:31,873 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 10:55:34,011 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:55:34] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 10:55:34,127 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:55:34] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 10:55:35,694 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:55:35] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 10:55:37,986 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:55:37] "GET /admin/folders HTTP/1.1" 200 -
+2025-12-15 10:55:49,967 - web_interface.admin - ERROR - 获取系统状态失败: No module named 'psutil'
+2025-12-15 10:55:49,968 - web_interface - ERROR - Exception on /admin/system [GET]
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 412, in system_status
+    system_info = get_system_info()
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 552, in get_system_info
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 45, in decorated_function
+    return f(user, *args, **kwargs)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 429, in system_status
+    return render_template('system_status.html',
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: system_status.html
+2025-12-15 10:55:49,975 - root - ERROR - 服务器内部错误: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-15 10:55:49,976 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 10:55:49] "[35m[1mGET /admin/system HTTP/1.1[0m" 500 -
+2025-12-15 10:59:39,679 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 10:59:39,679 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 10:59:39,679 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 10:59:39,679 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 10:59:39,680 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 10:59:39,712 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 10:59:39,712 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 10:59:52,181 - __main__ - INFO - 收到中断信号，正在关闭 WebDAV 服务器...
+2025-12-15 10:59:55,325 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 10:59:55,325 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 10:59:55,325 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 10:59:55,325 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 10:59:55,326 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 10:59:55,342 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 10:59:55,342 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 11:00:01,739 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 11:00:01] "GET /admin/folders HTTP/1.1" 200 -
+2025-12-15 11:00:03,308 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 11:00:03] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 11:00:03,413 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 11:00:03] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 11:00:04,787 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 11:00:04] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 11:00:04,895 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 11:00:04] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 11:00:05,576 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 11:00:05] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 11:00:05,684 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 11:00:05] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 11:00:06,114 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 11:00:06] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 11:00:06,977 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 11:00:06] "GET /admin/folders HTTP/1.1" 200 -
+2025-12-15 11:00:08,799 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 11:00:08] "GET /admin/folders HTTP/1.1" 200 -
+2025-12-15 11:00:09,583 - web_interface.admin - ERROR - 获取系统状态失败: No module named 'psutil'
+2025-12-15 11:00:09,584 - web_interface - ERROR - Exception on /admin/system [GET]
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 412, in system_status
+    system_info = get_system_info()
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 552, in get_system_info
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 45, in decorated_function
+    return f(user, *args, **kwargs)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 429, in system_status
+    return render_template('system_status.html',
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: system_status.html
+2025-12-15 11:00:09,591 - root - ERROR - 服务器内部错误: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-15 11:00:09,592 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 11:00:09] "[35m[1mGET /admin/system HTTP/1.1[0m" 500 -
+2025-12-15 11:01:08,303 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 11:01:08] "GET /admin/folders HTTP/1.1" 200 -
+2025-12-15 11:01:37,947 - web_interface.admin - ERROR - 获取系统状态失败: No module named 'psutil'
+2025-12-15 11:01:37,947 - web_interface - ERROR - Exception on /admin/system [GET]
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 412, in system_status
+    system_info = get_system_info()
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 552, in get_system_info
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 45, in decorated_function
+    return f(user, *args, **kwargs)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 429, in system_status
+    return render_template('system_status.html',
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: system_status.html
+2025-12-15 11:01:37,950 - root - ERROR - 服务器内部错误: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-15 11:01:37,950 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 11:01:37] "[35m[1mGET /admin/system HTTP/1.1[0m" 500 -
+2025-12-15 11:02:14,451 - __main__ - INFO - 收到中断信号，正在关闭 WebDAV 服务器...
+2025-12-15 16:05:31,165 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 16:05:31,165 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 16:05:31,165 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 16:05:31,165 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 16:05:31,166 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 16:05:31,185 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 16:05:31,186 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 16:05:37,530 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:05:37] "GET /admin/folders HTTP/1.1" 200 -
+2025-12-15 16:05:39,846 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:05:39] "GET /admin/system HTTP/1.1" 200 -
+2025-12-15 16:05:40,482 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:05:40] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:05:42,010 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:05:42] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 16:05:42,107 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:05:42] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:05:46,720 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:05:46] "GET /admin/system HTTP/1.1" 200 -
+2025-12-15 16:05:47,034 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:05:47] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:06:17,766 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:06:17] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:06:47,763 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:06:47] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:07:06,252 - web_interface.admin - ERROR - 获取日志失败: logs.html
+2025-12-15 16:07:06,252 - web_interface - ERROR - Exception on /admin/logs [GET]
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 456, in view_logs
+    return render_template('logs.html', user=user, logs=logs)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: logs.html
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 45, in decorated_function
+    return f(user, *args, **kwargs)
+  File "/Users/kay/webdav_server/web_interface/admin.py", line 461, in view_logs
+    return render_template('logs.html', user=user, logs=[])
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/kay/webdav_server/venv/lib/python3.9/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: logs.html
+2025-12-15 16:07:06,261 - root - ERROR - 服务器内部错误: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-12-15 16:07:06,262 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:07:06] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2025-12-15 16:07:17,032 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:07:17] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:07:47,010 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:07:47] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:08:17,012 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:08:17] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:08:46,989 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:08:46] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:09:16,993 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:09:16] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:09:46,990 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:09:46] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:10:16,994 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:10:16] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:10:47,004 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:10:47] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:11:16,994 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:11:16] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:11:47,007 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:11:47] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:12:16,992 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:12:16] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:12:46,993 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:12:46] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:13:16,994 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:13:16] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:13:37,871 - __main__ - INFO - 收到中断信号，正在关闭 WebDAV 服务器...
+2025-12-15 16:36:06,287 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 16:36:06,287 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 16:36:06,288 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 16:36:06,288 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 16:36:06,288 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 16:36:06,311 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 16:36:06,311 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 16:36:10,769 - web_interface.admin - ERROR - 获取数据库统计失败: 1146 (42S02): Table 'webdav_server.access_log' doesn't exist
+2025-12-15 16:36:10,786 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:36:10] "GET /admin/system HTTP/1.1" 200 -
+2025-12-15 16:36:11,063 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:36:11] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:36:15,293 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:36:15] "GET /admin/folders HTTP/1.1" 200 -
+2025-12-15 16:36:17,423 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:36:17] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 16:36:18,088 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:36:18] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 16:36:18,182 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:36:18] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:36:22,922 - web_interface.admin - ERROR - 获取日志失败: 1146 (42S02): Table 'webdav_server.access_log' doesn't exist
+2025-12-15 16:36:22,942 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:36:22] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 16:36:40,685 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:36:40] "GET /admin/folders HTTP/1.1" 200 -
+2025-12-15 16:37:01,880 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:37:01] "POST /admin/api/folders/create HTTP/1.1" 200 -
+2025-12-15 16:37:03,185 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:37:03] "GET /admin/folders HTTP/1.1" 200 -
+2025-12-15 16:37:05,996 - web_interface.admin - ERROR - 获取日志失败: 1146 (42S02): Table 'webdav_server.access_log' doesn't exist
+2025-12-15 16:37:05,997 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:37:05] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 16:37:22,906 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:37:22] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 16:37:23,013 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:37:23] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:37:52,995 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:37:52] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:38:17,821 - web_interface.admin - ERROR - 获取日志失败: 1146 (42S02): Table 'webdav_server.access_log' doesn't exist
+2025-12-15 16:38:17,822 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:38:17] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 16:39:22,070 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:39:22] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 16:39:22,212 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:39:22] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:39:22,992 - web_interface.admin - ERROR - 获取日志失败: 1146 (42S02): Table 'webdav_server.access_log' doesn't exist
+2025-12-15 16:39:22,994 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:39:22] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 16:40:15,750 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:40:15] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 16:40:15,871 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:40:15] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:40:23,990 - web_interface.admin - ERROR - 获取日志失败: 1146 (42S02): Table 'webdav_server.access_log' doesn't exist
+2025-12-15 16:40:23,991 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:40:23] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 16:47:21,149 - __main__ - INFO - 收到中断信号，正在关闭 WebDAV 服务器...
+2025-12-15 16:47:27,801 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 16:47:27,801 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 16:47:27,801 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 16:47:27,801 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 16:47:27,802 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 16:47:27,825 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 16:47:27,825 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 16:47:29,883 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:47:29] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 16:47:32,578 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:47:32] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 16:47:32,707 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:47:32] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 16:47:34,471 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:47:34] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 16:47:36,390 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:47:36] "GET /admin/folders HTTP/1.1" 200 -
+2025-12-15 16:48:21,607 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:48:21] "POST /admin/api/folders/create HTTP/1.1" 200 -
+2025-12-15 16:48:22,912 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:48:22] "GET /admin/folders HTTP/1.1" 200 -
+2025-12-15 16:48:38,696 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:48:38] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 16:48:42,156 - web_interface.admin - ERROR - 编辑用户失败: edit_user.html
+2025-12-15 16:48:42,157 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:48:42] "[32mGET /admin/users/2/edit HTTP/1.1[0m" 302 -
+2025-12-15 16:48:42,169 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:48:42] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 16:48:48,979 - web_interface.admin - ERROR - 编辑用户失败: edit_user.html
+2025-12-15 16:48:48,980 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:48:48] "[32mGET /admin/users/2/edit HTTP/1.1[0m" 302 -
+2025-12-15 16:48:48,991 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 16:48:48] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 18:37:14,445 - auth - INFO - Expired sessions cleanup completed
+2025-12-15 18:37:14,468 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:37:14] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 18:37:25,876 - web_interface.admin - ERROR - 获取用户详情失败: user_detail.html
+2025-12-15 18:37:25,877 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:37:25] "[32mGET /admin/users/2 HTTP/1.1[0m" 302 -
+2025-12-15 18:37:25,887 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:37:25] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 18:47:56,291 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:47:56] "GET /admin/folders HTTP/1.1" 200 -
+2025-12-15 18:54:00,788 - __main__ - INFO - 收到中断信号，正在关闭 WebDAV 服务器...
+2025-12-15 18:54:02,537 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 18:54:02,537 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 18:54:02,538 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 18:54:02,538 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 18:54:02,538 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 18:54:02,563 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 18:54:02,563 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 18:54:08,483 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:54:08] "GET /admin/folders HTTP/1.1" 200 -
+2025-12-15 18:54:09,575 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:54:09] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 18:54:09,706 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:54:09] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 18:54:13,409 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:54:13] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 18:54:14,411 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:54:14] "GET /admin/folders HTTP/1.1" 200 -
+2025-12-15 18:54:15,813 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:54:15] "GET /admin/system HTTP/1.1" 200 -
+2025-12-15 18:54:16,380 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:54:16] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 18:54:25,057 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:54:25] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 18:54:35,024 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:54:35] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 18:54:36,257 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:54:36] "GET /admin/users/2/edit HTTP/1.1" 200 -
+2025-12-15 18:54:46,811 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:54:46] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 18:54:48,882 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:54:48] "GET /admin/users/2/edit HTTP/1.1" 200 -
+2025-12-15 18:54:55,282 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:54:55] "GET /admin/users/2/edit HTTP/1.1" 200 -
+2025-12-15 18:55:08,979 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:55:08] "GET /admin/users/2 HTTP/1.1" 200 -
+2025-12-15 18:55:21,723 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:55:21] "POST /admin/api/users/2/permissions HTTP/1.1" 200 -
+2025-12-15 18:55:23,258 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:55:23] "GET /admin/users/2 HTTP/1.1" 200 -
+2025-12-15 18:55:34,258 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:55:34] "POST /admin/api/users/2/permissions HTTP/1.1" 200 -
+2025-12-15 18:55:35,724 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:55:35] "GET /admin/users/2 HTTP/1.1" 200 -
+2025-12-15 18:55:37,611 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:55:37] "GET /admin/users/2/edit HTTP/1.1" 200 -
+2025-12-15 18:55:40,038 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:55:40] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 18:55:42,505 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 18:55:42] "GET /admin/users/2 HTTP/1.1" 200 -
+2025-12-15 19:03:05,216 - __main__ - INFO - 收到中断信号，正在关闭 WebDAV 服务器...
+2025-12-15 19:03:11,684 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 19:03:11,684 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 19:03:11,684 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 19:03:11,685 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 19:03:11,685 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 19:03:11,702 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 19:03:11,702 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 19:03:15,451 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 19:03:15] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 19:03:16,536 - web_interface.admin - ERROR - 获取用户详情失败: 'current_user' is undefined
+2025-12-15 19:03:16,536 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 19:03:16] "[32mGET /admin/users/2 HTTP/1.1[0m" 302 -
+2025-12-15 19:03:16,548 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 19:03:16] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 19:03:19,345 - web_interface.admin - ERROR - 编辑用户失败: 'current_user' is undefined
+2025-12-15 19:03:19,346 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 19:03:19] "[32mGET /admin/users/2/edit HTTP/1.1[0m" 302 -
+2025-12-15 19:03:19,357 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 19:03:19] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 19:03:49,178 - __main__ - INFO - 收到中断信号，正在关闭 WebDAV 服务器...
