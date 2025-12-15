@@ -466,12 +466,15 @@ def view_logs(user):
 def get_system_stats(user):
     """获取系统统计信息 (API)"""
     try:
+        # 获取存储详细信息
+        storage_info = get_storage_info()
+        
         stats = {
             'total_users': get_user_count(),
             'active_users': get_active_user_count(),
             'total_folders': get_folder_count(),
             'total_files': get_file_count(),
-            'storage_usage': get_storage_usage(),
+            'storage_usage': storage_info,  # 使用详细的存储信息
             'system_load': get_system_load()
         }
         
