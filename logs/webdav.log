@@ -1,0 +1,254 @@
+2025-12-15 19:59:51,397 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 19:59:51,398 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 19:59:51,398 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 19:59:51,398 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 19:59:51,400 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 19:59:51,534 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 19:59:51,534 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 20:00:00,939 - auth - INFO - Session invalidated: 6hMiYD3fPxkkkdWrOJgz8AS_cKQY4u5epgsbrs08AWk
+2025-12-15 20:00:00,943 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:00:00] "[32mGET /admin/logout HTTP/1.1[0m" 302 -
+2025-12-15 20:00:00,971 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:00:00] "GET /admin/login HTTP/1.1" 200 -
+2025-12-15 20:00:01,030 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:00:01] "[33mGET /admin/web_interface/templates/admin/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2025-12-15 20:02:02,804 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 20:02:02,804 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 20:02:02,805 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 20:02:02,805 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 20:02:02,809 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 20:02:02,982 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 20:02:02,982 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 20:02:05,488 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:02:05] "GET /admin/login HTTP/1.1" 200 -
+2025-12-15 20:02:05,537 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:02:05] "[33mGET /admin/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2025-12-15 20:02:10,083 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:02:10] "GET /admin/login HTTP/1.1" 200 -
+2025-12-15 20:02:10,128 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:02:10] "[33mGET /admin/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2025-12-15 20:02:10,824 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:02:10] "GET /admin/login HTTP/1.1" 200 -
+2025-12-15 20:02:10,875 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:02:10] "[33mGET /admin/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2025-12-15 20:02:11,244 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:02:11] "GET /admin/login HTTP/1.1" 200 -
+2025-12-15 20:02:11,291 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:02:11] "[33mGET /admin/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2025-12-15 20:02:11,460 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:02:11] "GET /admin/login HTTP/1.1" 200 -
+2025-12-15 20:02:11,505 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:02:11] "[33mGET /admin/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2025-12-15 20:02:11,678 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:02:11] "GET /admin/login HTTP/1.1" 200 -
+2025-12-15 20:02:11,723 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:02:11] "[33mGET /admin/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2025-12-15 20:02:12,285 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:02:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-15 20:02:14,778 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:02:14] "GET /admin/login HTTP/1.1" 200 -
+2025-12-15 20:02:14,822 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:02:14] "[33mGET /admin/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2025-12-15 20:02:15,277 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:02:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-15 20:03:04,381 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:03:04] "GET /admin/login HTTP/1.1" 200 -
+2025-12-15 20:11:18,736 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:11:18] "GET /admin/login HTTP/1.1" 200 -
+2025-12-15 20:11:20,917 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:11:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-15 20:11:27,678 - models - INFO - User authenticated successfully: admin
+2025-12-15 20:11:27,682 - auth - INFO - Session created for user 2
+2025-12-15 20:11:27,684 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:11:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-15 20:11:27,739 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:11:27] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 20:11:27,902 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:11:27] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:11:31,347 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:11:31] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 20:11:34,274 - web_interface.admin - ERROR - 获取用户详情失败: 'current_user' is undefined
+2025-12-15 20:11:34,277 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:11:34] "[32mGET /admin/users/2 HTTP/1.1[0m" 302 -
+2025-12-15 20:11:34,293 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:11:34] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 20:13:05,392 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:13:05] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 20:13:07,125 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:13:07] "GET /admin/users/2 HTTP/1.1" 200 -
+2025-12-15 20:13:14,627 - web_interface.admin - ERROR - 编辑用户失败: 'current_user' is undefined
+2025-12-15 20:13:14,629 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:13:14] "[32mGET /admin/users/2/edit HTTP/1.1[0m" 302 -
+2025-12-15 20:13:14,647 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:13:14] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 20:14:06,804 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:14:06] "GET /admin/users/2/edit HTTP/1.1" 200 -
+2025-12-15 20:14:11,575 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:14:11] "[32mPOST /admin/users/2/edit HTTP/1.1[0m" 302 -
+2025-12-15 20:14:11,588 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:14:11] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 20:14:19,319 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:14:19] "GET /admin/folders HTTP/1.1" 200 -
+2025-12-15 20:14:21,425 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:14:21] "GET /admin/system HTTP/1.1" 200 -
+2025-12-15 20:14:23,788 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:14:23] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:14:42,367 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:14:42] "[32mGET /admin HTTP/1.1[0m" 308 -
+2025-12-15 20:14:42,392 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:14:42] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 20:14:42,525 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:14:42] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:15:12,506 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:15:12] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:15:42,496 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:15:42] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:15:59,374 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:15:59] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 20:16:29,696 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:16:29] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 20:16:29,817 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:16:29] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:16:59,794 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:16:59] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:17:29,794 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:17:29] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:17:41,043 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:17:41] "GET /admin/system HTTP/1.1" 200 -
+2025-12-15 20:17:43,555 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:17:43] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:18:13,536 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:18:13] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:18:43,533 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:18:43] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:19:13,548 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:19:13] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:19:43,535 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:19:43] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:20:13,537 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:20:13] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:20:43,804 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:20:43] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:21:05,505 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:21:05] "GET /admin/system HTTP/1.1" 200 -
+2025-12-15 20:21:07,435 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:21:07] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:21:09,409 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:21:09] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 20:21:09,570 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:21:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-15 20:21:09,577 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:21:09] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:21:12,259 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:21:12] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 20:21:14,474 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:21:14] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:21:14,737 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:21:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-15 20:21:24,277 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:21:24] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 20:21:46,477 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 20:21:46,477 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 20:21:46,478 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 20:21:46,478 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 20:21:46,481 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 20:21:46,573 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 20:21:46,573 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 20:21:50,423 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:21:50] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 20:21:51,030 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:21:51] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:21:51,130 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:21:51] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 20:21:51,505 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:21:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-15 20:22:00,460 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:22:00] "GET /admin/system HTTP/1.1" 200 -
+2025-12-15 20:22:01,151 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:22:01] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:22:20,621 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:22:20] "GET /admin/system HTTP/1.1" 200 -
+2025-12-15 20:22:21,181 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:22:21] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:22:21,667 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:22:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-15 20:22:24,700 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:22:24] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 20:22:24,841 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:22:24] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:22:24,861 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:22:24] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 20:22:27,606 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:22:27] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 20:22:28,197 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:22:28] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:22:28,214 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:22:28] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 20:22:28,801 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:22:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-15 20:22:30,889 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:22:30] "GET /admin/system HTTP/1.1" 200 -
+2025-12-15 20:22:31,479 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:22:31] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:23:01,800 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:23:01] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:23:31,801 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:23:31] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:23:38,100 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:23:38] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 20:23:38,238 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:23:38] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 20:23:38,258 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:23:38] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 20:23:55,720 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 20:23:55] "GET /admin/folders HTTP/1.1" 200 -
+2025-12-15 21:06:34,102 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:06:34] "GET /admin/folders HTTP/1.1" 200 -
+2025-12-15 21:06:40,081 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:06:40] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 21:06:42,296 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:06:42] "GET /admin/users/2/edit HTTP/1.1" 200 -
+2025-12-15 21:06:46,111 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:06:46] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 21:06:47,431 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:06:47] "GET /admin/users/2 HTTP/1.1" 200 -
+2025-12-15 21:06:56,046 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:06:56] "POST /admin/api/users/2/permissions HTTP/1.1" 200 -
+2025-12-15 21:06:58,856 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:06:58] "GET /admin/users/2 HTTP/1.1" 200 -
+2025-12-15 21:07:01,601 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:07:01] "GET /admin/users/2 HTTP/1.1" 200 -
+2025-12-15 21:24:42,472 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 21:24:42,473 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 21:24:42,473 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 21:24:42,473 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 21:24:42,475 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 21:24:42,563 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 21:24:42,563 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 21:28:46,791 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 21:28:46,792 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 21:28:46,792 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 21:28:46,792 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 21:28:46,794 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 21:28:46,871 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 21:28:46,871 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 21:29:34,291 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 21:29:34,292 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 21:29:34,292 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 21:29:34,292 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 21:29:34,294 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 21:29:34,391 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 21:29:34,391 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 21:34:53,359 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 21:34:53,360 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 21:34:53,360 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 21:34:53,360 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 21:34:53,362 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 21:34:53,441 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 21:34:53,441 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 21:35:04,959 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:35:04] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-15 21:35:04,976 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:35:04] "GET /login HTTP/1.1" 200 -
+2025-12-15 21:35:10,324 - models - INFO - User authenticated successfully: admin
+2025-12-15 21:35:10,327 - auth - INFO - Session created for user 2
+2025-12-15 21:35:10,329 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:35:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-15 21:35:10,382 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:35:10] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 21:35:10,595 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:35:10] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 21:35:10,677 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:35:10] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 21:35:40,904 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:35:40] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 21:35:40,923 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:35:40] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 21:36:10,905 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:36:10] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 21:36:10,920 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:36:10] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 21:36:40,926 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:36:40] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 21:36:40,944 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:36:40] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 21:37:10,911 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:37:10] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 21:37:10,927 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:37:10] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 21:38:21,331 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 21:38:21,332 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 21:38:21,332 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 21:38:21,333 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 21:38:21,337 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 21:38:21,340 - __main__ - ERROR - WebDAV 服务器运行错误: No socket could be created -- (('0.0.0.0', 8080): [Errno 48] Address already in use)
+2025-12-15 21:39:11,646 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 21:39:11,647 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 21:39:11,647 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 21:39:11,647 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 21:39:11,649 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 21:39:11,717 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 21:39:11,718 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 21:39:17,935 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:39:17] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 21:39:18,022 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:39:18] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 21:39:19,196 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:39:19] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 21:39:19,336 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:39:19] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 21:39:19,357 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:39:19] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 21:39:49,322 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:39:49] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 21:39:49,343 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:39:49] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 21:40:01,006 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:40:01] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 21:40:11,984 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:40:11] "GET /admin/users/2 HTTP/1.1" 200 -
+2025-12-15 21:40:18,322 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:40:18] "[35m[1mGET /admin/users/create HTTP/1.1[0m" 500 -
+2025-12-15 21:40:18,401 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:40:18] "GET /admin/users/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-12-15 21:40:18,405 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:40:18] "GET /admin/users/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-12-15 21:40:18,437 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:40:18] "GET /admin/users/create?__debugger__=yes&cmd=resource&f=console.png&s=vPb3gkSPgmLGfGtkh108 HTTP/1.1" 200 -
+2025-12-15 21:40:18,514 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:40:18] "GET /admin/users/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-12-15 21:44:58,184 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:44:58] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-15 21:44:58,202 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:44:58] "GET /login HTTP/1.1" 200 -
+2025-12-15 21:45:02,108 - models - INFO - User authenticated successfully: admin
+2025-12-15 21:45:02,111 - auth - INFO - Session created for user 2
+2025-12-15 21:45:02,113 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:45:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-15 21:45:02,123 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:45:02] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 21:45:02,278 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:45:02] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 21:45:02,296 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:45:02] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 21:45:03,952 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:45:03] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 21:45:09,346 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:45:09] "[35m[1mGET /admin/users/create HTTP/1.1[0m" 500 -
+2025-12-15 21:45:09,395 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:45:09] "[36mGET /admin/users/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-15 21:45:09,402 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:45:09] "[36mGET /admin/users/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-15 21:45:09,441 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:45:09] "[36mGET /admin/users/create?__debugger__=yes&cmd=resource&f=console.png&s=vPb3gkSPgmLGfGtkh108 HTTP/1.1[0m" 304 -
+2025-12-15 21:46:44,376 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 21:46:44,376 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 21:46:44,376 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 21:46:44,377 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 21:46:44,379 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 21:46:44,455 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 21:46:44,455 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 21:46:49,881 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:46:49] "GET /admin/users/create HTTP/1.1" 200 -
+2025-12-15 21:47:14,386 - models - INFO - User created successfully: test
+2025-12-15 21:47:14,389 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:47:14] "[32mPOST /admin/users/create HTTP/1.1[0m" 302 -
+2025-12-15 21:47:14,442 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:47:14] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 21:47:26,761 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:47:26] "GET /admin/folders HTTP/1.1" 200 -
+2025-12-15 21:47:30,130 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:47:30] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 21:47:32,393 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:47:32] "GET /admin/users/3 HTTP/1.1" 200 -
+2025-12-15 21:47:43,587 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:47:43] "POST /admin/api/users/3/permissions HTTP/1.1" 200 -
+2025-12-15 21:47:45,409 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:47:45] "GET /admin/users/3 HTTP/1.1" 200 -
+2025-12-15 21:48:37,406 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:48:37] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 21:48:53,433 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:48:53] "GET /admin/users/3/edit HTTP/1.1" 200 -
+2025-12-15 21:48:56,540 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:48:56] "[32mPOST /admin/users/3/edit HTTP/1.1[0m" 302 -
+2025-12-15 21:48:56,554 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:48:56] "GET /admin/users HTTP/1.1" 200 -
