@@ -51,7 +51,8 @@ class WebDAVServer:
     def __init__(self):
         self.config = Config
         self.config.init_directories()
-        self.authenticator = Authenticator()
+        # 注意：认证器将在 create_webdav_app 中初始化
+        self.authenticator = None
         self.web_app = None
         self.webdav_app = None
         
@@ -63,6 +64,9 @@ class WebDAVServer:
             root_path=str(Config.WEBDAV_ROOT),
             readonly=False,
         )
+        
+        # 创建认证器实例
+        self.authenticator = Authenticator(None, {})  # 临时实例，稍后会被 WsgiDAVApp 替换
         
         # 配置 WebDAV - 直接使用 provider，不需要 DAVProvider 包装
         config = {
@@ -79,11 +83,20 @@ class WebDAVServer:
             "property_manager": True,
             "lock_storage": True,
             "http_authenticator": {
-                "domain_controller": self.authenticator.get_domain_controller(),
+                "domain_controller": "auth.Authenticator",  # 使用字符串引用
             },
+            "simple_dc": {
+                "user_mapping": {
+                    "*": True  # 允许匿名访问作为后备
+                }
+            },
+            # 使用标准的中间件栈，移除自定义中间件
             "middleware_stack": [
-                # 自定义中间件，用于设置当前用户
-                self._create_user_middleware,
+                "wsgidav.mw.cors.Cors",
+                "wsgidav.error_printer.ErrorPrinter",
+                "wsgidav.http_authenticator.HTTPAuthenticator",
+                "wsgidav.dir_browser.WsgiDavDirBrowser",
+                "wsgidav.request_resolver.RequestResolver",  # 必须是最后一个
             ],
         }
         
@@ -98,14 +111,67 @@ class WebDAVServer:
     def _create_user_middleware(self, app, config):
         """创建用户中间件"""
         def user_middleware(environ, start_response):
-            # 从认证信息中获取用户
-            auth_user = environ.get("wsgidav.auth.user")
-            if auth_user and "user" in auth_user:
-                # 设置当前用户到提供者
-                for provider in config.get("provider_mapping", {}).values():
-                    if hasattr(provider, "set_current_user"):
-                        provider.set_current_user(auth_user["user"])
-            return app(environ, start_response)
+            try:
+                # 从认证信息中获取用户
+                auth_user = environ.get("wsgidav.auth.user")
+                if auth_user and "user" in auth_user:
+                    # 设置当前用户到提供者
+                    for provider in config.get("provider_mapping", {}).values():
+                        if hasattr(provider, "set_current_user"):
+                            provider.set_current_user(auth_user["user"])
+                
+                # 调用下一个应用程序并确保返回可迭代对象
+                def safe_start_response(status, headers, exc_info=None):
+                    # 确保状态码格式正确
+                    if not status or not isinstance(status, str):
+                        status = '200 OK'
+                    elif not status.strip():
+                        status = '200 OK'
+                    # 验证状态码是有效的
+                    try:
+                        status_code = int(status.split()[0])
+                        if status_code < 100 or status_code >= 600:
+                            status = '200 OK'
+                    except (ValueError, IndexError):
+                        status = '200 OK'
+                    return start_response(status, headers, exc_info)
+                
+                # 调用下一个应用程序
+                app_iter = app(environ, safe_start_response)
+                
+                # 确保返回的是可迭代对象
+                # 如果 app_iter 是一个函数，我们需要调用它
+                if callable(app_iter):
+                    app_iter = app_iter()
+                
+                # 如果 app_iter 是 None，返回空列表
+                if app_iter is None:
+                    return [b'']
+                
+                # 如果 app_iter 不是可迭代对象，将其转换为列表
+                if not hasattr(app_iter, '__iter__'):
+                    return [str(app_iter).encode() if app_iter is not None else b'']
+                
+                # 如果 app_iter 是字符串，转换为字节并包装在列表中
+                if isinstance(app_iter, str):
+                    return [app_iter.encode()]
+                
+                # 如果 app_iter 是字节，包装在列表中
+                if isinstance(app_iter, bytes):
+                    return [app_iter]
+                
+                # 转换为列表以确保它是可迭代的
+                return list(app_iter)
+                    
+            except Exception as e:
+                logging.error(f"Middleware error: {e}", exc_info=True)
+                # 在出现异常时，返回一个简单的错误响应
+                try:
+                    start_response('500 Internal Server Error', [('Content-Type', 'text/plain')])
+                except:
+                    # 如果 start_response 也失败了，至少确保返回可迭代对象
+                    pass
+                return [b'Internal Server Error']
         return user_middleware
     
     def create_web_interface(self):

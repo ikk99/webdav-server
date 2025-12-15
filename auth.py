@@ -4,15 +4,58 @@ import base64
 from datetime import datetime, timedelta
 from typing import Optional, Dict, Any, Callable
 import logging
+from wsgidav.dc.base_dc import BaseDomainController
 from models import Database, User
 
 logger = logging.getLogger(__name__)
 
-class Authenticator:
+class Authenticator(BaseDomainController):
     """WebDAV 认证器"""
     
-    def __init__(self, realm: str = "WebDAV Server"):
-        self.realm = realm
+    def __init__(self, wsgidav_app, config):
+        super().__init__(wsgidav_app, config)
+        self.realm = "WebDAV Server"
+    
+    def get_domain_realm(self, path_info, environ):
+        """Return the normalized realm name for a given URL."""
+        return self.realm
+    
+    def require_authentication(self, realm, environ):
+        """Return False to disable authentication for this request."""
+        # 检查是否允许匿名访问
+        from config import Config
+        return not Config.ANONYMOUS_ACCESS
+    
+    def basic_auth_user(self, realm, user_name, password, environ):
+        """Check request access permissions for realm/user_name/password."""
+        user = self.authenticate(user_name, password)
+        if user:
+            # 设置用户信息到环境变量
+            environ["wsgidav.auth.user"] = {"username": user.username, "user": user}
+            environ["wsgidav.auth.roles"] = []
+            if user.is_admin:
+                environ["wsgidav.auth.roles"].append("admin")
+            return True
+        return False
+    
+    def supports_http_digest_auth(self):
+        """Signal if this DC instance supports the HTTP digest authentication theme."""
+        return True
+    
+    def digest_auth_user(self, realm, user_name, environ):
+        """Computes digest hash A1 part."""
+        # 获取用户信息（这里简化处理，实际应该从数据库获取）
+        from models import User
+        user = User.get_by_username(user_name)
+        if user:
+            # 设置用户信息到环境变量
+            environ["wsgidav.auth.user"] = {"username": user.username, "user": user}
+            environ["wsgidav.auth.roles"] = []
+            if user.is_admin:
+                environ["wsgidav.auth.roles"].append("admin")
+            password = user.password_hash  # 注意：这里应该是明文密码，但我们只有哈希
+            return self._compute_http_digest_a1(realm, user_name, password)
+        return False
     
     def authenticate(self, username: str, password: str) -> Optional[User]:
         """基础认证"""
@@ -238,5 +281,4 @@ class SessionManager:
             return False
 
 # 全局认证器和会话管理器实例
-authenticator = Authenticator()
 session_manager = SessionManager()

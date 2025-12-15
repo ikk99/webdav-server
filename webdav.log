@@ -1275,3 +1275,74 @@ jinja2.exceptions.TemplateNotFound: logs.html
 2025-12-15 19:03:19,346 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 19:03:19] "[32mGET /admin/users/2/edit HTTP/1.1[0m" 302 -
 2025-12-15 19:03:19,357 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 19:03:19] "GET /admin/users HTTP/1.1" 200 -
 2025-12-15 19:03:49,178 - __main__ - INFO - 收到中断信号，正在关闭 WebDAV 服务器...
+2025-12-15 19:56:07,285 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 19:56:07,285 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 19:56:07,285 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 19:56:07,285 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 19:56:07,286 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 19:56:07,310 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 19:56:07,310 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 19:58:27,566 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 19:58:27] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-15 19:58:27,586 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 19:58:27] "GET /login HTTP/1.1" 200 -
+2025-12-15 19:58:27,653 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 19:58:27] "[33mGET /web_interface/templates/admin/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2025-12-15 19:58:27,738 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 19:58:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-15 19:58:40,318 - models - INFO - User authenticated successfully: admin
+2025-12-15 19:58:40,321 - auth - INFO - Session created for user 2
+2025-12-15 19:58:40,322 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 19:58:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-15 19:58:40,350 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 19:58:40] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 19:58:42,518 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 19:58:42] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 19:59:12,500 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 19:59:12] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 19:59:20,049 - __main__ - INFO - 收到中断信号，正在关闭 WebDAV 服务器...
+2025-12-15 21:21:32,691 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 21:21:32,691 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 21:21:32,691 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 21:21:32,691 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 21:21:32,692 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 21:21:32,714 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 21:21:32,714 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 21:22:37,563 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:22:37] "GET /admin/users/2 HTTP/1.1" 200 -
+2025-12-15 21:22:39,585 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:22:39] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 21:22:39,704 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:22:39] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 21:22:39,740 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:22:39] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 21:22:41,167 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:22:41] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 21:22:42,031 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:22:42] "GET /admin/folders HTTP/1.1" 200 -
+2025-12-15 21:22:53,881 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:22:53] "GET /admin/system HTTP/1.1" 200 -
+2025-12-15 21:22:57,808 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:22:57] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 21:23:04,704 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:23:04] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 21:23:08,464 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:23:08] "GET /admin/ HTTP/1.1" 200 -
+2025-12-15 21:23:08,585 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:23:08] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 21:23:08,599 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:23:08] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 21:23:11,737 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:23:11] "GET /admin/users HTTP/1.1" 200 -
+2025-12-15 21:23:28,589 - __main__ - INFO - 收到中断信号，正在关闭 WebDAV 服务器...
+2025-12-15 21:34:15,695 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 21:34:15,695 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 21:34:15,695 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 21:34:15,695 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 21:34:15,696 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 21:34:15,717 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 21:34:15,717 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 21:34:46,493 - __main__ - INFO - 收到中断信号，正在关闭 WebDAV 服务器...
+2025-12-15 21:37:23,643 - __main__ - INFO - 正在启动 WebDAV 服务器...
+2025-12-15 21:37:23,643 - __main__ - INFO - 数据目录: /Users/kay/webdav_server/data
+2025-12-15 21:37:23,643 - __main__ - INFO - WebDAV 服务地址: 0.0.0.0:8080
+2025-12-15 21:37:23,643 - __main__ - INFO - Web 管理界面地址: 0.0.0.0:5000
+2025-12-15 21:37:23,644 - __main__ - INFO - WebDAV 服务器启动在 0.0.0.0:8080
+2025-12-15 21:37:23,676 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.89.101:5000
+2025-12-15 21:37:23,676 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-15 21:37:40,929 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:37:40] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 21:37:40,958 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:37:40] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 21:38:57,906 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:38:57] "GET /admin/api/system/stats HTTP/1.1" 200 -
+2025-12-15 21:38:57,916 - werkzeug - INFO - 127.0.0.1 - - [15/Dec/2025 21:38:57] "GET /admin/logs HTTP/1.1" 200 -
+2025-12-15 21:39:03,111 - __main__ - INFO - 收到中断信号，正在关闭 WebDAV 服务器...
